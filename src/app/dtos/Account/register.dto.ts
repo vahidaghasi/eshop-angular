@@ -3,7 +3,11 @@ export interface RegisterDto {
     password: string ;
     firstName: string ;
     lastName: string ;
-    mobilePhone: string ;
+    mobile: string ;
+
+
+}
+export interface RegisterResponceDto {
 
 
 }
